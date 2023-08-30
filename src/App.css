@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+:root {
+  --wooden: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Horror/wooden.jpg);
+  --forest: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Horror/forest.jpg);
+  --sweets: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Cute/sweets1.jpg);
+  --bubbles: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Cute/bubbles.jpg);
+  --crackle: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Minimalist/crackle.jpg);
+  --sparkle: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Minimalist/sparkle.jpg);
+  --rainbow: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Rainbow/rainbow-paint.jpg);
+  --smoke: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Rainbow/rainbow-smoke.jpg);
+  --nightsky: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Sleek/nightsky.jpg);
+  --sunset: url(https://scrimba.ams3.digitaloceanspaces.com/assets/courses/gdegree/Sleek/sunset.jpg);
+
+  
+  /* COLORS */
+  --blood: #8a0303;
+  --slime: #228B22;
+  --gloom: #2B363B;
+  --candy: #ee698e;
+  --purple: #7B1E7A;
+  --blue: #2176AE;
+  --olive: #A6C48A;    
+  --royal: #0A1045;
+  --lilac: #B8AED6;
+  --snow: #f4f9e9;
+  
+  /* FONTS */
+  --scary-font: 'Metal Mania';
+  --typewriter-font: 'Inconsolata';
+  --funny-font: 'Balsamiq Sans';
+  --curly-font: 'Pacifico';
+  --old-style-font: 'Cinzel';
+  --simple-font: 'Noto Sans HK';
+  --funky-font: 'MuseoModerno';
+  --sweet-font: 'Lobster';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  --background-image: var(--forest);
+  --main-color: #EED971;
+  font-family: var(--simple-font);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.grid {
+ column-count: 5;
+ column-gap: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
