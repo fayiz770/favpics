@@ -1,7 +1,5 @@
 # favPic - Random Photo Generator
 
-![favPic Logo]()
-
 favPic is a simple web application that allows you to generate and display random photos from Unsplash based on your search query. It's built using HTML, CSS, and React.
 
 
