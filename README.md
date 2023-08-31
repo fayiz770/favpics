@@ -41,10 +41,5 @@ You can customize the behavior of the app by modifying the following variables i
 
 Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 Feel free to customize this README template according to your preferences. Good luck with your project!
